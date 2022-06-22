@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a DBC</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="./assets/img/cogumelo.png" alt="Home" width="60"></a>
+            Melhores alunos do VemSer de todos os tempos
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">Sobre</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <form>
+        
+        <h3>Contato</h3>
+
+        <!-- Prof. João, eu sei que no Form, não é necessário o uso de tabela, até porque a formatação será feita pelo CSS, mas pensando em organizar melhor, deixei o conteúdo do Form dentro de uma Tabela. -->
+
+        <table>
+            <tr>
+                <td><label for="name">Digite seu nome completo:</label><br><br></td>
+                <td><input type="text" name="name" placeholder="Nome completo" required><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">Digite seu email:</label><br><br></td>
+                <td><input type="email" name="email" placeholder="Email" required><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="questions">Qual o motivo do contato:</label><br><br></td>
+                <td>
+                    <select name="questions" id="questions">
+                        <option value="q1">HTML é easy demais</option>
+                        <option value="q2">HTML + CSS é melhor</option>
+                        <option value="q3">Quesro trabalhar no Back</option>
+                        <option value="q4">Quero ser FullStack</option>
+                    </select><br><br>
+                 </td>
+            </tr>
+            <tr>
+                <td><label for="textarea">Sua mensagem:</label><br>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Digite a sua mensagem"></textarea><br><br></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Salvar"></td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Professor: o link, no rodapé: Contato, direciona para a página a página que é exatamente igual ao exercício -->
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <address>AV. Andarai 521 - Porto Alegre</address>
+    </footer>   
+</body>
+</html>

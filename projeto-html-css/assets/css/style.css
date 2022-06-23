@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #B22222;
+    padding: 20px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.ajuste {
+    display: inline-block;
+}
+
+.logo {
+    margin: 0 10px;
+}
+
+.logo img {
+    background-color: #FFF;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.logo small {
+    color: #FFF;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+.main-text {
+    background-color: #696969;
+    padding: 20px 10px;
+    color: #FFF;
+    text-align: justify;
+}
+
+.galery {
+    padding: 20px;
+}
+
+.galery h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.galery-img {
+    border: #CCC solid 1px;
+}
+
+.alinhar-img {
+    text-align: center;
+    display: inline;
+}
+
+.main-text p, h2 {
+    margin-bottom: 15px;
+}
+
+.map {
+    text-align: center;
+    padding: 40px;
+}
+
+.map h2 {
+   margin-bottom: 20px;
+   color: #696969;
+}
+
+.sobre-dbc {
+    text-align: center;
+    padding: 20px;
+}
+
+.sobre-dbc h1 {
+    color: #696969;
+    margin-bottom: 15px;
+}
+
+.texto {
+    text-align: justify;
+    padding: 20px 10px;
+}
+
+.texto p {
+    margin-bottom: 15px;
+}
+
+.caixa-form {
+    border: #CCC solid 1px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #B22222;
+    padding: 40px;
+    color: #FFF;
+}
+
+footer nav {
+    margin-bottom: 20px;
+}
+

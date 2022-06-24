@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+header a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+header a:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.container {
+    display: flex;
+    margin: 40px;
+    height: 100vh;
+
+}
+
+.bloco1 {
+    position: relative;
+    max-height: 440px;
+}
+
+.bloco2 {
+    margin-left: 20px;
+}
+
+.img-bloco1 {
+    width: 700px;
+    height: 400px;
+    background-color: yellow;
+}
+
+.leg-bloco1 {
+    width: 700px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+
+.leg-bloco1 p {
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.encap-bloco2, .encap-bloco3 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.img-bloco2, .img-bloco3 {
+    width: 500px;
+    height: 210px;
+    background-color: yellow;
+}
+
+.leg-bloco2, .leg-bloco3 {
+    width: 500px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+
+.leg-bloco2 p, .leg-bloco3 p {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+

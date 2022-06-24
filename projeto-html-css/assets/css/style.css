@@ -59,6 +59,14 @@ nav ul li a {
     text-align: justify;
 }
 
+.main-text p, h2 {
+    margin-bottom: 15px;
+}
+
+.main-text h2 {
+    text-align: left;
+}
+
 .galery {
     padding: 20px;
 }
@@ -75,10 +83,6 @@ nav ul li a {
 .alinhar-img {
     text-align: center;
     display: inline;
-}
-
-.main-text p, h2 {
-    margin-bottom: 15px;
 }
 
 .map {

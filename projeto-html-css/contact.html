@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,45 +8,57 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Contato</title>
 </head>
+
 <body>
     <header>
         <div class="container">
-            <div class="logo">
-                <a href="index.html"><img src="./assets/img/cogumelo.png" alt="Home" width="60"></a>
-                <small>Melhores alunos do VemSer de todos os tempos</small>
+            <div class="container-header">
+                <div class="logo">
+                    <a href="index.html"><img src="./assets/img/cogumelo.png" alt="Home" width="60"></a>
+                    <small>Melhores alunos do VemSer de todos os tempos</small>
+                </div>
+                <div class="nav-bar">
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">Sobre</a></li>
+                            <li><a href="./contact.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">Sobre</a></li>
-                    <li><a href="./contact.html">Contato</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
-    
+
     <section class="formulario">
         <div class="container">
             <h2>Contato</h2>
-                <form class="caixa-form">
+            <form class="caixa-form">
+                <div class="caixa1">
                     <label for="name">Digite seu nome completo:</label>
                     <input type="text" name="name" placeholder="Nome completo" required>
-                    <br><br>
+
                     <label for="email">Digite seu email:</label>
                     <input type="email" name="email" placeholder="Email" required>
-                    <br><br>
+
                     <label for="questions">Qual o motivo do contato:</label>
                     <select name="questions" id="questions">
-                            <option value="q1">HTML é easy demais</option>
-                            <option value="q2">HTML + CSS é melhor</option>
-                            <option value="q3">Quesro trabalhar no Back</option>
-                            <option value="q4">Quero ser FullStack</option>
+                        <option value="q1">HTML é easy demais</option>
+                        <option value="q2">HTML + CSS é melhor</option>
+                        <option value="q3">Quesro trabalhar no Back</option>
+                        <option value="q4">Quero ser FullStack</option>
                     </select>
-                    <br><br>
-                    <label for="textarea">Sua mensagem:</label><br>
-                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Digite a sua mensagem"></textarea><br><br>
-                    <input type="submit" value="Salvar">
-                </form>
+
+                    <label for="textarea">Sua mensagem:</label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"
+                        placeholder="Digite a sua mensagem"></textarea>
+
+                    <input class="save-button" type="submit" value="Salvar">
+                </div>
+                <div class="caixa2">
+                    <img src="./assets/img/mario2.png" alt="Mario">
+                </div>
+            </form>
         </div>
     </section>
 
@@ -61,6 +74,7 @@
 
             <address>AV. Andarai 521 - Porto Alegre</address>
         </div>
-    </footer>   
+    </footer>
 </body>
+
 </html>

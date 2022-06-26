@@ -12,6 +12,13 @@ body {
 header {
     background-color: #B22222;
     padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav ul li {
@@ -29,6 +36,8 @@ header nav ul li {
 
 .logo {
     margin: 0 10px;
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
@@ -39,6 +48,7 @@ header nav ul li {
 
 .logo small {
     color: #FFF;
+    margin-left: 10px;
 }
 
 nav ul li {
@@ -48,8 +58,12 @@ nav ul li {
 nav ul li a {
     color: #FFF;
     text-decoration: none;
-    list-style: none;
     padding: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    transition: 200ms;
 }
 
 .main-text {
@@ -57,6 +71,7 @@ nav ul li a {
     padding: 20px 10px;
     color: #FFF;
     text-align: justify;
+    margin-top: 40px;
 }
 
 .main-text p, h2 {
@@ -73,16 +88,32 @@ nav ul li a {
 
 .galery h1 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
 .galery-img {
     border: #CCC solid 1px;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .alinhar-img {
     text-align: center;
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alinhar-img span {
+    margin: 10px;
 }
 
 .map {
@@ -119,17 +150,79 @@ nav ul li a {
     border-radius: 15px;
     padding: 20px;
     margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa1 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    margin-bottom: 25px;
+}
+
+.caixa1 input {
+    line-height: 30px;
+}
+
+.save-button {
+    background-color: #B22222;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+}
+
+.save-button:hover {
+    background-color: #FF6347;
+    color: #000;
+    font-weight: bold;
+}
+
+select {
+    height: 34px;
+    margin-bottom: 25px;
+}
+
+.caixa2 {
+    width: 600px;
+    margin-left: 10px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa2 img {
+    width: 50%;
+    
 }
 
 .container h2 {
-    text-align: center;
     margin-top: 20px;
+}
+
+.formulario .container h2 {
+    text-align: center;
 }
 
 footer {
     background-color: #B22222;
     padding: 40px;
     color: #FFF;
+    margin-top: 30px;
 }
 
 footer nav {

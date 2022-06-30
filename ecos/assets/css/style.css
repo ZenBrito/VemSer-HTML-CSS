@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EFF3F8;
+}
+
+/* Elementos do Topo da página */
+header {
+    background: url(../img/patternECOStransparente.png), linear-gradient(176deg, rgba(45,95,163,1) 0%, rgba(115,174,90,1) 100%);
+    padding: 3px 16px;
+    margin-bottom: 10px;
+    color: #FFF;
+    height: 44.3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Primeiro menu Nav */
+.menu-topo nav ul, nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-topo nav ul li {
+    list-style: none;
+    padding-right: 25px;
+}
+
+.menu-topo nav ul li i {
+    margin-right: 5px;
+}
+
+.menu-topo ul li a {
+    padding: 13px 8px;
+}
+
+.menu-topo ul li a:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 13px 8px;
+}
+
+nav ul li img {
+    width: 105px;
+    height: 36px;
+    margin-top: 1px;
+}
+
+.link-hamburguer {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Elementos do formulário */
+input {
+    width: 400px;
+    height: 15px;
+    padding: 8px;
+    background: rgba(53, 107, 101, 0.5);
+    border-radius: 3px;
+    border: 0;
+}
+
+input::placeholder {
+    color: #FFF;
+}
+
+form span {
+    position: absolute;
+    margin-left: -23px;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+/* Segundo meno Nav */
+.menu-topo2 ul li {
+    list-style: none;
+    margin-left: 8px;
+}
+
+.menu-topo2 .sino {
+    font-size: 25px;
+}
+
+.usuario i:first-child {
+    font-size: 35px;
+}
+
+.menu-topo2 ul li a {
+    padding: 8px;
+}
+
+.menu-topo2 ul li a:hover {
+    cursor: pointer;
+    text-shadow: 0 0 0.8em #356b65, 0 0 0.8em #356b65;
+}
+
+/* main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main section {
+    background-color: #CCC;
+    width: 100%;
+    height: 400px;
+} */
+
+

@@ -14,7 +14,7 @@ body {
 header {
     background: url(../img/patternECOStransparente.png), linear-gradient(176deg, rgba(45,95,163,1) 0%, rgba(115,174,90,1) 100%);
     padding: 3px 16px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: #FFF;
     height: 44.3px;
     display: flex;
@@ -224,12 +224,12 @@ main section {
 
 .menu-links {
     width: 120px;
-    height: 120px;
+    height: 100px;
     background-color: #f9f9fb;
     margin-right: 10px;
     margin-top: 10px;
     border-radius: 5px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -241,9 +241,12 @@ main section {
     color: #73ae50;
 }
 
-.menu-links span {
-    font-size: 15px;
+.menu-links small {
+    font-size: 13px;
+    color: #73ae50;
+    font-weight: bold;
 }
+
 
 
 

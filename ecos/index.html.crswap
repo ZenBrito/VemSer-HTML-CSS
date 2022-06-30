@@ -180,30 +180,8 @@
             </div>
 
         </section>
-
-        <section class="secao2">
-            <div class="container">
-                <h5 class="titulo-container">SISTEMAS E PROCESSOS</h5>
-                <hr>
-
-                <div class="menu-sistemas-processos">
-                    <div class="menu-links">
-                        <i class="fa-solid fa-users"></i>
-                        <span>Contatos</span>
-                    </div>
-                    <div class="menu-links"></div>
-                    <div class="menu-links"></div>
-                    <div class="menu-links"></div>
-                    <div class="menu-links"></div>
-                    <div class="menu-links"></div>
-                    <div class="menu-links"></div>
-                </div>
-            </div>
-
-            <div class="container">
-                <h5 class="titulo-container">Últimos Aniversariantes</h5>
-                <hr>
-            </div>
+        <section>
+            
         </section>
 
     </main>
